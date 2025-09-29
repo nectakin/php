@@ -35,6 +35,8 @@ $links = [
 <head>
     <meta charset="UTF-8">
     <title>Варіант 8 - Сторінка 2</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="editable.js" defer></script>
     <style>
         body { 
             margin: 0; 

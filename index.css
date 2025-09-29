@@ -1,0 +1,19 @@
+/* Додаткові стилі для кращого UX */
+.content-edit-form h3 {
+    margin: 0 0 15px 0;
+    color: #333;
+}
+
+.edit-form-buttons button:hover {
+    opacity: 0.9;
+    transform: translateY(-1px);
+}
+
+.edit-form-buttons button:active {
+    transform: translateY(0);
+}
+
+/* Стилі для елементів, які можна редагувати */
+body.editing-mode *:not(.content-edit-form):not(.content-edit-form *) {
+    cursor: pointer !important;
+}
